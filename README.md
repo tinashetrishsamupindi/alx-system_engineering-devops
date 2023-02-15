@@ -1,1 +1,1 @@
-0. Where am I?
+this repository contains solutions to shell tasks
