@@ -20,4 +20,3 @@ if __name__ == '__main__':
         for task in all_tasks:
             csvwriter.writerow([int(userId), username,
                                task.get('completed'), task.get('title')])
-
