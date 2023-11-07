@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-import requests
+"""Module for task 2"""
 
 
 def recurse(subreddit, hot_list=[], count=0, after=None):
-    """Queries Reddit API and returns all hot posts
+    """Queries the Reddit API and returns all hot posts
     of the subreddit"""
-    
+    import requests
 
     sub_info = requests.get("https://www.reddit.com/r/{}/hot.json"
                             .format(subreddit),
